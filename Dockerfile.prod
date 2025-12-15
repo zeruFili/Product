@@ -1,6 +1,6 @@
 FROM node:22-alpine as build
 
-# Working directory inside the container
+# create  directory inside the container
 WORKDIR /app
 
 # Copy package.json and package-lock.json
