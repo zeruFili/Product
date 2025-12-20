@@ -35,3 +35,11 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+
+## Docker Initialization
+To run your NestJS application within a Docker container, use the following command:
+
+```bash
+$ docker-compose up --build
+```
+
